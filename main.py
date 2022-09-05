@@ -18,6 +18,7 @@ for i in range(200):
     blue = 71 + int((i * 0.9))  # 255
     pen.width(26 - (i / 8))
     pen.color(red, green, blue)
+    print(red, green, blue)
     for i in range(3):
         pen.forward(400)
         pen.right(90)
